@@ -1,7 +1,7 @@
 # Cours - MAC, Hash, Chiffrement Authentifié
 
 # Un .MD existe avec les questions types qui peuvent arriver au contrôle + partiel
-here[texte cliquable](https://github.com/LibelleQ/Crypto/blob/main/controle_question.MD)
+[Questions type](https://github.com/LibelleQ/Crypto/blob/main/controle_question.MD)
 
 
 ## Probabilisme / Déterminisme
@@ -26,7 +26,7 @@ here[texte cliquable](https://github.com/LibelleQ/Crypto/blob/main/controle_ques
 - **Existentielles** : réussir à forger un couple valide (M', T') quelconque.
 - **Universelles** : attaquant capable de forger n’importe quel message/tag valide.
 
-> ⚠️ Si (M, T) est un couple déjà vu, ce n’est **pas** une contrefaçon.
+> ATTENTION Si (M, T) est un couple déjà vu, ce n’est **pas** une contrefaçon.
 
 ### Scénarios d'attaque
 
@@ -40,7 +40,7 @@ here[texte cliquable](https://github.com/LibelleQ/Crypto/blob/main/controle_ques
 - **Brute force sur la clé** : essayer toutes les clés possibles.
 - **Brute force sur le tag** : tester toutes les valeurs de tag possibles.
 
-🔐 Le tag doit être suffisamment long : typiquement **2⁹⁶** bits.
+ATTENTION Le tag doit être suffisamment long : typiquement **2⁹⁶** bits.
 
 > Pourquoi pas plus long ?  
 > Pour limiter les temps de réponse en ligne et éviter les risques de **bannissement** ou **détection d’attaque**.
@@ -126,7 +126,7 @@ here[texte cliquable](https://github.com/LibelleQ/Crypto/blob/main/controle_ques
    - T = MAC(K1, M)
    - C = Encrypt(K1, M || T)
 
-3. **Encrypt then MAC** ✅ Recommandé
+3. **Encrypt then MAC** Recommandé
    - C = Encrypt(K1, M)
    - T = MAC(K2, C)
 
