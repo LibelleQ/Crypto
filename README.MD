@@ -1,6 +1,6 @@
 # Cours - MAC, Hash, Chiffrement Authentifié
 
-# Un .MD existe avec les questions types qui peuvent arriver au contrôle + partiel
+## Un .MD existe avec les questions types qui peuvent arriver au contrôle + partiel
 [Questions type](https://github.com/LibelleQ/Crypto/blob/main/controle_question.MD)
 
 
