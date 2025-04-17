@@ -1,5 +1,9 @@
 # Cours - MAC, Hash, Chiffrement Authentifié
 
+# Un .MD existe avec les questions types qui peuvent arriver au contrôle + partiel
+here[texte cliquable](https://github.com/LibelleQ/Crypto/blob/main/controle_question.MD)
+
+
 ## Probabilisme / Déterminisme
 
 - `KeyGen` est **probabiliste** (génère une clé aléatoire).
